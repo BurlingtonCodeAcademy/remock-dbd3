@@ -1,0 +1,65 @@
+h1 {
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+
+/* .mainWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} */
+
+.quoteBanner {
+    display: inline-block;
+    text-align: center;
+}
+
+.allPicsDiv {                                  /* Div class for holding the first 3 pictures */
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+}
+
+.allPicsDiv img{
+    display: flex;
+    align-self: center;
+    max-width: 100%;
+}
+
+.picDiv {                                      /* Div class for holding individual picture with text below */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bothTextCol{
+    display: flex;
+    justify-content: space-between;            /* Note: Flex defaults to row by default, no need to say flex-direction: row; */
+    width: 75%;
+    margin: auto;                             /* Note: You have to say margin: auto; in order to match both margins on either side */
+}
+
+.leftTextCol {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    /* float: left; */
+}
+
+.rightTextCol {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* float: left; */
+}
+
+.footer {
+    display: flex;
+    justify-self: space-between;
+    width: 100%;
+    margin: auto;
+}
