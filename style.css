@@ -57,19 +57,36 @@ h1 {
     /* float: left; */
 }
 
+
+/* FOOTER ITEMS */
+.footer {
+    display: flex;
+    justify-self: center;
+    margin: auto;
+}
+
+
+.leftFooterCol {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.rightFooterCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+
 .iconCol {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.footer {
-    display: flex;
-    justify-self: space-between;
-    align-self: center;
-    width: 100%;
-    margin: auto;
-}
+
 
 .iconTextRow{
     display: flex;
@@ -80,6 +97,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    
 }
 
 .iconTextRow img {
