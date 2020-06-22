@@ -57,9 +57,37 @@ h1 {
     /* float: left; */
 }
 
+.iconCol {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .footer {
     display: flex;
     justify-self: space-between;
+    align-self: center;
     width: 100%;
     margin: auto;
+}
+
+.iconTextRow{
+    display: flex;
+    
+}
+
+.IconCol {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.iconTextRow img {
+    height: 25px;
+    width: 25px;
+}
+
+.colRow {
+    display: flex;
+
 }
