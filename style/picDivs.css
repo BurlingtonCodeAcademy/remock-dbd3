@@ -1,0 +1,164 @@
+/* PICTURE DIVS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.centerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.topImageText {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+    font-family: fantasy;
+    margin: 1em;
+}
+
+
+.allPicsDiv {                                  /* Div class for holding the first 3 pictures */
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.allPicsDiv img{
+    display: flex;
+    align-self: center;
+    max-width: 75%;
+}
+
+
+.picDiv {                                      /* Div class for holding individual picture with text below */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.bigPicDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.bigPicDiv img {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.bigPicDiv h3 {
+    justify-content: flex-start;
+}
+
+.bigPicDiv h4 {
+    margin: 2em;
+}
+
+.bigPicDiv p {
+    margin-bottom: 2em;
+}
+
+.picText {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    border-bottom: double black;
+}
+
+.picText h3 {
+    display: flex;
+    color: black;
+    justify-content: flex-start;
+    font-family: fantasy;
+}
+
+.picText img{
+    float: left;
+    margin: 1em;
+}
+
+.picText p {
+    margin-bottom: 1em;
+}
+
+
+/* TEXT DIVS /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.blogContainer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blogTextCol {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8em;
+    padding-right: 8em;
+    max-width: 50em;
+}
+
+.blogTextCol img {
+    width: 100%;
+    margin: 2em;
+}
+
+.blogTextCol h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.blogTextCol h3 {
+    display: flex;
+    align-items: center;
+}
+
+.bothTextCol{
+    display: flex;
+    justify-content: space-between;            /* Note: Flex defaults to row by default, no need to say flex-direction: row; */
+    width: 75%;
+    margin: auto;                             /* Note: You have to say margin: auto; in order to match both margins on either side */
+}
+
+.leftTextCol {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.leftTextColBlog {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.leftTextCol img {
+    margin: auto;
+}
+
+.rightTextCol {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+   
+}
+
+.rightTextColBlog {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+
+
+
+.titleText {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 1em;
+    font-family: fantasy;
+}

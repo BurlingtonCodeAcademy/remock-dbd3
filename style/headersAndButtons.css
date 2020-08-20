@@ -1,0 +1,169 @@
+/* UNIVERSAL ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+body {
+    margin: 0;
+}
+
+
+/* HEADERS AND LINKS ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.quoteBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 10em;
+    color: white;
+    font-size: 3em;
+    font-family: fantasy;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.headerDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.borderBottom {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    border-bottom: double black;
+}
+
+
+.borderBottomMax {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 8em;
+    border-bottom: double black;
+}
+
+.borderWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headerDiv a {
+    display: flex;
+    color: crimson;
+    justify-content: center;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 5em;
+}
+
+.headerDiv a:hover {
+    display: flex;
+    color: black;
+    justify-content: center;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 5em;
+}
+
+.postLink {
+    color: black;
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.postLink:hover {
+    color: crimson;
+}
+
+
+.headerDiv h3 {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    padding-bottom: 2em;
+    
+   
+}
+
+h2 {
+    font-family: fantasy;
+}
+
+h3 {
+    font-family: fantasy;
+}
+
+
+
+
+/* BUTTONS //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.buttonPic{
+    background-color: crimson; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 25%;
+  }
+
+.buttonPic:hover {
+    color: black;
+    border: black;
+}
+
+
+.buttonSide{
+    background-color: crimson; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+
+.buttonSide:hover {
+    color: black;
+    border: black;
+}
+
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    background-color: crimson; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 10%;
+}
+
+.buttonCenter:hover{
+    color: black;
+}
+
+.dateBox {
+    background-color: gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
